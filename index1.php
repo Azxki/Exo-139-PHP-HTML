@@ -14,8 +14,10 @@
      ?>
      <ul>
        <?php
-            // TODO votre code ici
+            echo "<div>" . $students . "</div>"
        ?>
      </ul>
 
-    <!-- Incluez le fichier index2.php ici bas de manière a obtenir la suite du code HTML. -->
+    <?php
+        require ('index2.php');
+    ?>
